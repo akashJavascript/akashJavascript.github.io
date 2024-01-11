@@ -1,0 +1,31 @@
+.header {
+  grid-row: 1;
+  grid-column: 2;
+  background-color: white;
+  display: grid;
+}
+.account-pfp {
+  height: 30px;
+  grid-column: 2;
+}
+.search-bar {
+  width: 500px;
+  height: 20px;
+  background-color: #e2e8f0;
+  border-radius: 25px;
+  grid-column: 1;
+}
+.user-account-name {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.top-header {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+}
+
+.search {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
