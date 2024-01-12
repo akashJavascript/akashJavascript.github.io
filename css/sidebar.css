@@ -1,0 +1,64 @@
+.sidebar {
+  grid-row: 1 / span 2;
+  display: grid;
+  grid-template-rows: 100px 200px 125px;
+  background-color: #0ea5e9;
+  color: white;
+}
+.sidebar-header {
+  grid-row: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.dashboard-icon {
+  font-size: 100px;
+  grid-row: 1;
+}
+
+.top-links {
+  grid-row: 2;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  font-weight: 700;
+}
+.bottom-links {
+  grid-row: 3;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  gap: 10px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+.bottom-links,
+.top-links,
+.sidebar-header {
+  margin-left: 10px;
+  
+}
+.sidebar-header-text {
+    margin-left: 5px;
+  }
+  .dashboard-icon{
+      font-size: 40px !important; /**static font issue; overridding external stylesheet*/
+  }
+  .link{
+    display: flex;
+    align-items: center;
+}
+.top-links >.link> span{
+    margin-right: 20px ;
+    margin-left: 5px;
+    font-size: 1rem !important;
+}
+.bottom-links >.link> span{
+    margin-right: 20px ;
+    margin-left: 5px;
+    font-size: 1rem !important;
+}
