@@ -5,9 +5,11 @@
   .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4.5fr;
   }
   .material-symbols-outlined{
       font-size: 1rem;
   }
- 
+ h3{
+  font-size: 15px;
+ }

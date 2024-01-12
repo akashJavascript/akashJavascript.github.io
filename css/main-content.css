@@ -42,3 +42,62 @@
   .quick-action{
     color:#64748b;
   }
+  .community-sidebar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap:25px;
+  }
+.announcements-section{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.announcements-items{
+  padding: 5px;
+  display: grid;
+  gap:12px;
+}
+.announcements-section-header,.trending-section-header{
+  font-size: 18px;
+}
+.announcement-description{
+  font-size: 11px;
+}
+h3,.trending-name {
+  font-size: 14px !important;
+}
+.trending-section{
+
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+.trending-items{
+  display: grid;
+  gap:20px;
+  
+}
+.trending-item{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+}
+.trending-project,.announcement-description{
+  color:#64748b;
+}
+.trending-project{
+  font-size: 12px;
+}
+.trending-pfp{
+  max-height: 40px;
+  grid-column: 1;
+}
+.trending-name-project-wrapper{
+  grid-column: 2;
+  grid-row: 1 / -1;
+}
+.trending-section-header{
+  margin-bottom: 10px ;
+}

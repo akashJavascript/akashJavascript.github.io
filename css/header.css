@@ -3,6 +3,9 @@
   grid-column: 2;
   background-color: white;
   display: grid;
+  grid-template-rows: 1fr 1fr ;
+  max-height: 175px; /* Two rows with minimum size of 50px */
+
   font-family: 'Roboto',sans-serif;
 }
 .account-pfp {
