@@ -12,6 +12,7 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
 .dashboard-icon {
@@ -39,6 +40,7 @@
 .top-links,
 .sidebar-header {
   margin-left: 10px;
+  
 }
 .sidebar-header-text {
     margin-left: 5px;
